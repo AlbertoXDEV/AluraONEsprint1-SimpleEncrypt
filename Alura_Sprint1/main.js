@@ -1,4 +1,4 @@
-var input=document.querySelector("#text");
+var input=document.querySelector(".text");
 var output="";
 const form=document.querySelector("textInput")
 const outputField=document.querySelector(".outputField")

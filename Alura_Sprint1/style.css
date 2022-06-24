@@ -10,22 +10,26 @@ h1{
 
 .input {
 	position: absolute;
-	left: 30%;
-	top: 30%;
+	left: 20%;
+	top: 15%;
 	width: 35%;
 
 }
 
 .input img{
 	display: inline-block;
+	width: 100%;
+	height: 90%;
 }
 
-.input textarea {
+.text {
 	resize: none;
 	display: inline-block;
 	position: absolute;
 	width: 100%;
+	height: 90%;
 	top:2%;
+	right: 1%;
 	border:none;
 	background-color: #f3f5fc ;
 	opacity: 0.75;
@@ -34,28 +38,28 @@ h1{
 
 .navbuttons {
 	position: absolute;
-	width: 50% ;
-	bottom: 18% ;
-	left:30% ;
-}
-
-.navbuttons #crypto {
-	display:inline-block;
-	width: 25%;
-}
-
-.navbuttons img {
-	display:inline-block;
-	width: 100%;
+	display: inline-block;
 	height: 10%;
+	width: 45% ;
+	bottom: 18% ;
+	left:15% ;
+}
+
+.button {
+	display: inline-block;
+	width: 45%
 }
 
 #decripto {
-  display:inline-block;
-	margin-left: 25%;
-	width: 25%;
-	height: 10%
+	margin-left: 10%;
 }
+
+.navbuttons img {
+	display: inline-block;
+	width: 100%;
+	height: 33%
+}
+
 
 .output {
 	position:absolute;
