@@ -1,0 +1,89 @@
+body {
+	background-color: #f3f5fc
+}
+h1{
+	display: inline-block;
+	position: absolute;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+
+.input {
+	position: absolute;
+	left: 30%;
+	top: 30%;
+	width: 35%;
+
+}
+
+.input img{
+	display: inline-block;
+}
+
+.input textarea {
+	resize: none;
+	display: inline-block;
+	position: absolute;
+	width: 100%;
+	top:2%;
+	border:none;
+	background-color: #f3f5fc ;
+	opacity: 0.75;
+
+}
+
+.navbuttons {
+	position: absolute;
+	width: 50% ;
+	bottom: 18% ;
+	left:30% ;
+}
+
+.navbuttons #crypto {
+	display:inline-block;
+	width: 25%;
+}
+
+.navbuttons img {
+	display:inline-block;
+	width: 100%;
+	height: 10%;
+}
+
+#decripto {
+  display:inline-block;
+	margin-left: 25%;
+	width: 25%;
+	height: 10%
+}
+
+.output {
+	position:absolute;
+	width: 30%;
+	height: 85%;
+	right:5%;
+}
+
+.output img {
+	width: 60%;
+	height: 75%;
+
+
+}
+
+.output p{
+	display: inline;
+	bottom: 5%;
+}
+
+.output input {
+	display: inline;
+}
+
+footer {
+	display: block;
+	position: absolute;
+	bottom: 20px;
+	left:40%;
+
+}
