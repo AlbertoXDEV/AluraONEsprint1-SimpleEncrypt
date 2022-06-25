@@ -17,10 +17,17 @@ h1{
 
 }
 
-.input img{
+.img{
 	display: inline-block;
 	width: 100%;
 	height: 90%;
+}
+
+.hidden{
+	display: inline-block;
+	width: 100%;
+	height: 90%;
+	opacity: 0;
 }
 
 .text {
@@ -34,7 +41,12 @@ h1{
 	border:none;
 	background-color: #f3f5fc ;
 	opacity: 0.75;
+	font-family: 'Bebas Neue', cursive;
 
+}
+
+.txt-2{
+	color:crimson;
 }
 
 .navbuttons {
@@ -48,17 +60,20 @@ h1{
 
 .button {
 	display: inline-block;
-	width: 45%
+	width: 45%;
+	height: 65%;
 }
 
 #decripto {
 	margin-left: 10%;
 }
 
-.navbuttons img {
+.navbuttons button {
 	display: inline-block;
 	width: 100%;
-	height: 33%
+	height: 95%;
+	border-radius: 1em;
+	background-color: #94A6E4;
 }
 
 
@@ -69,7 +84,7 @@ h1{
 	right:5%;
 }
 
-.output img {
+.outputBox {
 	width: 75%;
 	height: 80%;
 	top: 5%;
@@ -87,16 +102,18 @@ h1{
 	height: 75%;
 	border: none;
 	resize: none;
+	font-family: 'Merriweather', serif;
 }
 
 .output input {
 	display: inline-block;
 	bottom: 10%;
 	position: absolute;
-	left: 10%;
-	width: 70%;
-	height: 5%;
-	border-radius: 32%;
+	left: 20%;
+	width: 55%;
+	height: 3em;
+	border-radius: 1em;
+	background-color: #94E4AA;
 }
 
 footer {

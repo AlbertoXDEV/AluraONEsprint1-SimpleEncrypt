@@ -6,6 +6,9 @@
 		<title>Alura sprint 1 - Decodificador</title>
 		<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="style.css" >
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather&display=swap" rel="stylesheet">
 	</head>
 
 	<body>
@@ -18,20 +21,20 @@
 
 		<main>
 			<div class="input">
-					<img src=imgs/input.png alt="Digite seu texto aqui" id=img >
+					<img src=imgs/input.png alt="Digite seu texto aqui" id=img class="img">
 					<textarea class="text" minlength="1" autofocus></textarea>
-					<p>Use somente letras minúsculas</p>
+					<p id="warning">Use somente letras minúsculas sem caractéres especiais</p>
 			</div>
 
-		<div class= navbuttons>
-			<ul>
-				<li id=cripto class="button"><img src=imgs/crypto.png alt=Criptografar>
-				<li id=decripto class="button"><img src=imgs/decrypto.png alt=Descriptografar>
+		<div>
+			<ul class= navbuttons>
+				<li id=cripto class="button"><button value="Criptografar">Criptografar</button>
+				<li id=decripto class="button"><button value="Descriptografar">Descriptografar</button>
 			</ul>
 		</div>
 
 		<div class="output">
-			<img src="imgs/Rectangle1.png" alt="">
+			<img src="imgs/Rectangle1.png" alt="" class="outputBox">
 			<textarea class="outputField" disabled></textarea>
 			<input name=copy id=copy type=button value=Copiar></input>
 		</div>
