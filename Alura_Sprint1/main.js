@@ -51,14 +51,13 @@ function updateErrorMsg(caseType) {
 }
 
 input.addEventListener('input',function (event) {
+		var placeHolder=document.querySelector('#placeholder');
 		if (event.data!=null) {
-			var placeHolder=document.querySelector('#img')
-			placeHolder.classList.remove("img")
+			placeHolder.classList.remove("placeholder")
 			placeHolder.classList.add("hidden")
 		}else if (input.value=="") {
-			var placeHolder=document.querySelector('#img')
 			placeHolder.classList.remove("hidden")
-			placeHolder.classList.add("img")
+			placeHolder.classList.add("placeholder")
 		}
 	}
 )
