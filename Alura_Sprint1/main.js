@@ -1,14 +1,14 @@
 var input=document.querySelector(".text");
 var output="";
 const outputField=document.querySelector(".outputField")
-const validChars=/[a-z\s]/g
+const invalidChars=/[^a-z\s]/g
 const warningMsg=document.querySelector("#warning");
 
 function encrypt () {
 	if (input.value!="") {
 			outputField.textContent="";
-			var validArray=input.value.match(validChars);
-			if(validArray!=null){
+			var invalidArray=input.value.match(invalidChars);
+			if(invalidArray==null){
 				updateErrorMsg(3)
 				output=input.value.replaceAll("e","enter").replaceAll("i","imes").replaceAll("a","ai").replaceAll("o","ober").replaceAll("u","ufat");
 				outputField.textContent=output;
@@ -24,8 +24,8 @@ function encrypt () {
 function decrypt () {
 	if (input.value!="") {
 			outputField.textContent="";
-			var validArray=input.value.match(validChars);
-			if(validArray!=null){
+			var invalidArray=input.value.match(invalidChars);
+			if(invalidArray==null){
 				updateErrorMsg(3)
 				output=input.value.replaceAll("enter","e").replaceAll("imes","i").replaceAll("ai","a").replaceAll("ober","o").replaceAll("ufat","u");
 				outputField.textContent=output;
