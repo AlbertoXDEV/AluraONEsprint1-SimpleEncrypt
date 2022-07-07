@@ -25,12 +25,6 @@ ___
 
 <div align="center">
 
-  :desktop_computer: No desktop :desktop_computer:
-
-![Funcionamento no desktop](imgs/desktop-1.mkv)
-
-  :iphone: E no mobile :iphone:
-
-![Funcionamento no mobile]()
+![Funcionamento no desktop](resources/desktop-1.mkv)
 
 </div>
