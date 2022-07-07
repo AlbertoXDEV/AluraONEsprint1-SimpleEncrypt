@@ -25,6 +25,6 @@ ___
 
 <div align="center">
 
-![Funcionamento no desktop](resources/desktop-1.mkv)
+![Funcionamento no desktop](resources/desktop-1.gif)
 
 </div>
