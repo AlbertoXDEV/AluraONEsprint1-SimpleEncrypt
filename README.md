@@ -1,4 +1,4 @@
-# alONEspr1-SmpCrpyto :old_key:
+# AluraONEsprint1-SimpleEncrypt :old_key:
 
  **Para a Sprint-1 de Lógica de Programação da Alura**
 
